@@ -99,7 +99,7 @@ export default StyleSheet.create({
 export const DrawerStyles = {
   labelStyle: {
     color: '#fff',
-    fontFamily: 'Avenir-Book',
+    // fontFamily: 'Avenir-Book',
     fontWeight: '500',
     marginLeft: 0,
   },

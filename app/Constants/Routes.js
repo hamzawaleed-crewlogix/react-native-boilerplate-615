@@ -6,5 +6,16 @@ const Account = 'Account';
 const Login = 'Login';
 const Signup = 'Signup';
 const Splash = 'Splash';
+const Notifications = 'Notifications';
 
-export {Drawer, Home, Groups, Messages, Account, Login, Signup, Splash};
+export {
+  Drawer,
+  Home,
+  Groups,
+  Messages,
+  Account,
+  Login,
+  Signup,
+  Splash,
+  Notifications,
+};

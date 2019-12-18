@@ -2,7 +2,14 @@ import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import {createDrawerNavigator} from 'react-navigation-drawer';
 import styles from '../Styles/NavigationStyles';
-import {Home, Account, Groups, Messages, Drawer} from '../Constants/Routes';
+import {
+  Home,
+  Account,
+  Groups,
+  Messages,
+  Drawer,
+  Notifications,
+} from '../Constants/Routes';
 import HomeScreen from '../Screens/Home';
 import MessagesScreen from '../Screens/Messages';
 import GroupsScreen from '../Screens/Groups';
@@ -11,6 +18,7 @@ import CustomDrawer from '../Components/Drawer/index';
 import {DrawerStyles} from '../Styles/drawer.styles';
 import Splash from '../Screens/Splash';
 import Onboarding from '../Screens/Onboarding';
+import NotificationScreen from '../Screens/Notifications/Notifications';
 const DrawerNavigator = createDrawerNavigator(
   {
     [Home]: {screen: HomeScreen},
@@ -38,6 +46,9 @@ const AppStack = createStackNavigator(
       navigationOptions: {
         header: null,
       },
+    },
+    [Notifications]: {
+      screen: NotificationScreen,
     },
   },
   {

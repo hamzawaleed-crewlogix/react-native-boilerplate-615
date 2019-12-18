@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import {SafeAreaView} from 'react-native';
-
 import {
   Container,
   Header,
@@ -13,13 +11,11 @@ import {
   Thumbnail,
   Text,
 } from 'native-base';
-import MyHeader from '../../Components/Header/MyHeader';
 const notifs = [1, 2, 3, 4];
-export default class Messages extends Component {
+export default class Notifications extends Component {
   render() {
     return (
-      <React.Fragment>
-        <MyHeader title="Messages" />
+      <Container>
         <List
           dataArray={notifs}
           keyExtractor={(a, b) => b.toString()}
@@ -27,7 +23,6 @@ export default class Messages extends Component {
             <ListItem thumbnail>
               <Left>
                 <Thumbnail
-                  square
                   source={{
                     uri:
                       'https://www.vtsl.com/wp-content/uploads/2015/08/voth-john-2019-web.jpg',
@@ -46,7 +41,7 @@ export default class Messages extends Component {
             </ListItem>
           )}
         />
-      </React.Fragment>
+      </Container>
     );
   }
 }
