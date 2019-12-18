@@ -1,19 +1,19 @@
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
-import HomeScreen from '../Screens/Home/HomeScreen';
 import styles from '../Styles/NavigationStyles';
+import ROUTES from '../Constants/Routes';
+import HomeScreen from '../Screens/Home';
 
-const AppStackk = createStackNavigator(
+const AppStack = createStackNavigator(
   {
-    HomeScreen: {screen: HomeScreen},
-    NewHome: {screen: HomeScreen},
+    [ROUTES.Home]: {screen: HomeScreen},
   },
   {
-    initialRouteName: 'HomeScreen',
+    initialRouteName: ROUTES.Home,
     navigationOptions: {
       headerStyle: styles.header,
     },
   },
 );
 
-export default createAppContainer(AppStackk);
+export default createAppContainer(AppStack);

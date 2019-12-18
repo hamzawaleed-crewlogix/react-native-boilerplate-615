@@ -2,9 +2,9 @@ import React from 'react';
 import {Provider} from 'react-redux';
 import {BackHandler} from 'react-native';
 import BackButtonHandler from './app/Helpers/BackButtonHandler';
-import AppNavigation from './app/Navigation/AppNavigation';
 import {NavigationStateHandler} from './app/Helpers/ScreenTrackingMiddleware';
 import store from './app/Redux/store';
+import AppNavigation from './app/Navigation/AppNavigation';
 
 class App extends React.Component {
   componentDidMount() {
