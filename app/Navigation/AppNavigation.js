@@ -1,35 +1,56 @@
 import {createStackNavigator} from 'react-navigation-stack';
-import {createAppContainer} from 'react-navigation';
+import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import {createDrawerNavigator} from 'react-navigation-drawer';
 import styles from '../Styles/NavigationStyles';
-import ROUTES from '../Constants/Routes';
+import {Home, Account, Groups, Messages, Drawer} from '../Constants/Routes';
 import HomeScreen from '../Screens/Home';
 import MessagesScreen from '../Screens/Messages';
 import GroupsScreen from '../Screens/Groups';
 import AccountScreen from '../Screens/Account';
-
+import CustomDrawer from '../Components/Drawer/index';
+import {DrawerStyles} from '../Styles/drawer.styles';
+import Splash from '../Screens/Splash';
+import Onboarding from '../Screens/Onboarding';
 const DrawerNavigator = createDrawerNavigator(
   {
-    [ROUTES.Home]: {screen: HomeScreen},
-    [ROUTES.Account]: {screen: AccountScreen},
-    [ROUTES.Groups]: {screen: GroupsScreen},
-    [ROUTES.Messages]: {screen: MessagesScreen},
+    [Home]: {screen: HomeScreen},
+    [Account]: {screen: AccountScreen},
+    [Groups]: {screen: GroupsScreen},
+    [Messages]: {screen: MessagesScreen},
   },
   {
-    initialRouteName: ROUTES.Home,
+    initialRouteName: Home,
+    drawerType: 'slide',
+    contentComponent: CustomDrawer,
+    resetOnBlur: true,
+    contentOptions: {
+      labelStyle: DrawerStyles.labelStyle,
+      itemStyle: DrawerStyles.itemStyle,
+    },
+    keyboardDismissMode: 'on-drag',
   },
 );
 
 const AppStack = createStackNavigator(
   {
-    [ROUTES.Drawer]: DrawerNavigator,
+    [Drawer]: {
+      screen: DrawerNavigator,
+      navigationOptions: {
+        header: null,
+      },
+    },
   },
   {
-    initialRouteName: ROUTES.Drawer,
+    initialRouteName: Drawer,
     navigationOptions: {
       headerStyle: styles.header,
     },
   },
 );
 
-export default createAppContainer(AppStack);
+const SwitchNav = createSwitchNavigator({
+  Splash: Splash,
+  Onboarding: Onboarding,
+  App: AppStack,
+});
+export default createAppContainer(SwitchNav);

@@ -5,13 +5,14 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "iphone": "react-native run-ios --simulator='iPhone X'",
+    "iphone": "npx react-native run-ios --simulator='iPhone X'",
     "commit": "git commit -m 'Bug fixes & improvements'",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.7.1",
     "axios": "^0.19.0",
     "native-base": "^2.13.8",
     "react": "16.9.0",
@@ -20,6 +21,7 @@
     "react-native-reanimated": "^1.4.0",
     "react-native-screens": "^1.0.0-alpha.23",
     "react-native-snap-carousel": "^3.8.4",
+    "react-native-swipe-gestures": "^1.0.4",
     "react-navigation": "^4.0.10",
     "react-navigation-drawer": "^2.3.3",
     "react-navigation-stack": "^1.10.3",

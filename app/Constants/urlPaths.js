@@ -12,8 +12,8 @@ const apiURL = 'api/';
 
 const baseURL = mode.developement; //Change development mode
 
-const urlPaths = {
+const API = {
   loginUser: baseURL + apiURL + 'Users/LoginUser',
 };
 
-export default urlPaths;
+export default API;
