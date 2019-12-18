@@ -1,7 +1,8 @@
 const ROUTES = {
+  Drawer: 'Drawer',
   Home: 'Home',
   Groups: 'Groups',
-  Account: 'Account',
   Messages: 'Messages',
+  Account: 'Account',
 };
 export default ROUTES;
