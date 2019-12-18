@@ -1,7 +1,6 @@
 export const Messages = {
   userManagement: {
     updateProfile: 'Please update your profile to use this feature',
-      'Please enter verification code sent to your mobile number. It might take few minutes to deliver, depending on network condition.',
   },
   locationHandler: {
     enableLocation:
