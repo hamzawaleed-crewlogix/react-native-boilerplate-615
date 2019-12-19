@@ -1,16 +1,20 @@
-import {StatusBar} from 'react-native';
+import {StatusBar, Platform} from 'react-native';
+import COLORS from '../Theme/Colors';
 
 const StatusBarColorHandler = routeName => {
   if (routeName === 'Lang') {
-    StatusBar.setBackgroundColor('#2b2b2b');
+    if (Platform.OS === 'android') {
+      StatusBar.setBackgroundColor('#2b2b2b');
+    }
     StatusBar.setBarStyle('light-content');
   } else if (routeName === 'Login' || routeName === 'Signup') {
-    StatusBar.setBackgroundColor('#fff');
+    if (Platform.OS === 'android') {
+      StatusBar.setBackgroundColor('#fff');
+    }
     StatusBar.setBarStyle('dark-content');
   } else {
     console.log('setting header color');
-
-    // StatusBar.setBackgroundColor(primaryColor);
+    StatusBar.setBackgroundColor(COLORS.primary);
     StatusBar.setBarStyle('light-content');
   }
 };
