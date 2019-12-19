@@ -13,8 +13,9 @@ const StatusBarColorHandler = routeName => {
     }
     StatusBar.setBarStyle('dark-content');
   } else {
-    console.log('setting header color');
-    StatusBar.setBackgroundColor(COLORS.primary);
+    if (Platform.OS === 'android') {
+      StatusBar.setBackgroundColor(COLORS.primary);
+    }
     StatusBar.setBarStyle('light-content');
   }
 };
