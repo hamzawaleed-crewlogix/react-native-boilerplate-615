@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'RealEstate' do
-  # Pods for RealEstate
+target 'PopUpAutoMessenger' do
+  # Pods for PopUpAutoMessenger
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -43,10 +43,10 @@ target 'RealEstate' do
   use_native_modules!
 end
 
-target 'RealEstate-tvOS' do
-  # Pods for RealEstate-tvOS
+target 'PopUpAutoMessenger-tvOS' do
+  # Pods for PopUpAutoMessenger-tvOS
 
-  target 'RealEstate-tvOSTests' do
+  target 'PopUpAutoMessenger-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
