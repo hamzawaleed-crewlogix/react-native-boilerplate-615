@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* RealEstateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RealEstateTests.m */; };
+		00E356F31AD99517003FC87E /* PopUpAutoMessengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PopUpAutoMessengerTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,10 +15,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* RealEstateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RealEstateTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* PopUpAutoMessengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PopUpAutoMessengerTests.m */; };
 		3932FDBADA30FA795D462299 /* libPods-PopUpAutoMessenger-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6073108BAC20269ECBD4A49 /* libPods-PopUpAutoMessenger-tvOS.a */; };
 		6E40B23B71159A297EF270D9 /* libPods-PopUpAutoMessenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090AF9049A1E783580EF9B9 /* libPods-PopUpAutoMessenger.a */; };
-		96B56270850FBEDB5D1FFABB /* libPods-RealEstateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC7B221037A44C59726E5E0 /* libPods-RealEstateTests.a */; };
+		96B56270850FBEDB5D1FFABB /* libPods-PopUpAutoMessengerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC7B221037A44C59726E5E0 /* libPods-PopUpAutoMessengerTests.a */; };
 		D4D495490EE2D5802629F410 /* libPods-PopUpAutoMessenger-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46232B73012F09360DADBA6C /* libPods-PopUpAutoMessenger-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -41,9 +41,9 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* RealEstateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEstateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* PopUpAutoMessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopUpAutoMessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* RealEstateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealEstateTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* PopUpAutoMessengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopUpAutoMessengerTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* PopUpAutoMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpAutoMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PopUpAutoMessenger/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PopUpAutoMessenger/AppDelegate.m; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PopUpAutoMessenger/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* PopUpAutoMessenger-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PopUpAutoMessenger-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* PopUpAutoMessenger-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PopUpAutoMessenger-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DC7B221037A44C59726E5E0 /* libPods-RealEstateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealEstateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC7B221037A44C59726E5E0 /* libPods-PopUpAutoMessengerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopUpAutoMessengerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46232B73012F09360DADBA6C /* libPods-PopUpAutoMessenger-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopUpAutoMessenger-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52596DD9B7252534A5704F2C /* Pods-PopUpAutoMessenger-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpAutoMessenger-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PopUpAutoMessenger-tvOSTests/Pods-PopUpAutoMessenger-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		879564F708178FEBA182EBB9 /* Pods-PopUpAutoMessenger-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpAutoMessenger-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PopUpAutoMessenger-tvOS/Pods-PopUpAutoMessenger-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,9 +62,9 @@
 		A4F670A63599547D97E8074C /* Pods-PopUpAutoMessenger-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpAutoMessenger-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PopUpAutoMessenger-tvOSTests/Pods-PopUpAutoMessenger-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B65967BA65550CF0DFFEB0A0 /* Pods-PopUpAutoMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpAutoMessenger.debug.xcconfig"; path = "Target Support Files/Pods-PopUpAutoMessenger/Pods-PopUpAutoMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5EAADCBFAB3FFCEE05EF76 /* Pods-PopUpAutoMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpAutoMessenger.release.xcconfig"; path = "Target Support Files/Pods-PopUpAutoMessenger/Pods-PopUpAutoMessenger.release.xcconfig"; sourceTree = "<group>"; };
-		C1DF6BFFD2214C7C6A7880ED /* Pods-RealEstateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateTests.debug.xcconfig"; path = "Target Support Files/Pods-RealEstateTests/Pods-RealEstateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1DF6BFFD2214C7C6A7880ED /* Pods-PopUpAutoMessengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpAutoMessengerTests.debug.xcconfig"; path = "Target Support Files/Pods-PopUpAutoMessengerTests/Pods-PopUpAutoMessengerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6073108BAC20269ECBD4A49 /* libPods-PopUpAutoMessenger-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopUpAutoMessenger-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8EE147EDAA636C2236C2EC1 /* Pods-RealEstateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateTests.release.xcconfig"; path = "Target Support Files/Pods-RealEstateTests/Pods-RealEstateTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8EE147EDAA636C2236C2EC1 /* Pods-PopUpAutoMessengerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpAutoMessengerTests.release.xcconfig"; path = "Target Support Files/Pods-PopUpAutoMessengerTests/Pods-PopUpAutoMessengerTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B56270850FBEDB5D1FFABB /* libPods-RealEstateTests.a in Frameworks */,
+				96B56270850FBEDB5D1FFABB /* libPods-PopUpAutoMessengerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,13 +105,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* RealEstateTests */ = {
+		00E356EF1AD99517003FC87E /* PopUpAutoMessengerTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* RealEstateTests.m */,
+				00E356F21AD99517003FC87E /* PopUpAutoMessengerTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = RealEstateTests;
+			path = PopUpAutoMessengerTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -144,7 +144,7 @@
 				A090AF9049A1E783580EF9B9 /* libPods-PopUpAutoMessenger.a */,
 				D6073108BAC20269ECBD4A49 /* libPods-PopUpAutoMessenger-tvOS.a */,
 				46232B73012F09360DADBA6C /* libPods-PopUpAutoMessenger-tvOSTests.a */,
-				2DC7B221037A44C59726E5E0 /* libPods-RealEstateTests.a */,
+				2DC7B221037A44C59726E5E0 /* libPods-PopUpAutoMessengerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* PopUpAutoMessenger */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* RealEstateTests */,
+				00E356EF1AD99517003FC87E /* PopUpAutoMessengerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D4EAA898FEA5F8D65CD2C131 /* Pods */,
@@ -175,7 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* PopUpAutoMessenger.app */,
-				00E356EE1AD99517003FC87E /* RealEstateTests.xctest */,
+				00E356EE1AD99517003FC87E /* PopUpAutoMessengerTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* PopUpAutoMessenger-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* PopUpAutoMessenger-tvOSTests.xctest */,
 			);
@@ -191,8 +191,8 @@
 				91E324559C2E42DD97D5ACFB /* Pods-PopUpAutoMessenger-tvOS.release.xcconfig */,
 				A4F670A63599547D97E8074C /* Pods-PopUpAutoMessenger-tvOSTests.debug.xcconfig */,
 				52596DD9B7252534A5704F2C /* Pods-PopUpAutoMessenger-tvOSTests.release.xcconfig */,
-				C1DF6BFFD2214C7C6A7880ED /* Pods-RealEstateTests.debug.xcconfig */,
-				E8EE147EDAA636C2236C2EC1 /* Pods-RealEstateTests.release.xcconfig */,
+				C1DF6BFFD2214C7C6A7880ED /* Pods-PopUpAutoMessengerTests.debug.xcconfig */,
+				E8EE147EDAA636C2236C2EC1 /* Pods-PopUpAutoMessengerTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* RealEstateTests */ = {
+		00E356ED1AD99517003FC87E /* PopUpAutoMessengerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RealEstateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PopUpAutoMessengerTests" */;
 			buildPhases = (
 				54220DD27016DB087180F67F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,9 +215,9 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = RealEstateTests;
-			productName = RealEstateTests;
-			productReference = 00E356EE1AD99517003FC87E /* RealEstateTests.xctest */;
+			name = PopUpAutoMessengerTests;
+			productName = PopUpAutoMessengerTests;
+			productReference = 00E356EE1AD99517003FC87E /* PopUpAutoMessengerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		13B07F861A680F5B00A75B9A /* PopUpAutoMessenger */ = {
@@ -318,7 +318,7 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* PopUpAutoMessenger */,
-				00E356ED1AD99517003FC87E /* RealEstateTests */,
+				00E356ED1AD99517003FC87E /* PopUpAutoMessengerTests */,
 				2D02E47A1E0B4A5D006451C7 /* PopUpAutoMessenger-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* PopUpAutoMessenger-tvOSTests */,
 			);
@@ -469,7 +469,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RealEstateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PopUpAutoMessengerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -569,7 +569,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* RealEstateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* PopUpAutoMessengerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +595,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* RealEstateTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* PopUpAutoMessengerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,14 +629,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1DF6BFFD2214C7C6A7880ED /* Pods-RealEstateTests.debug.xcconfig */;
+			baseConfigurationReference = C1DF6BFFD2214C7C6A7880ED /* Pods-PopUpAutoMessengerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RealEstateTests/Info.plist;
+				INFOPLIST_FILE = PopUpAutoMessengerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -652,11 +652,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8EE147EDAA636C2236C2EC1 /* Pods-RealEstateTests.release.xcconfig */;
+			baseConfigurationReference = E8EE147EDAA636C2236C2EC1 /* Pods-PopUpAutoMessengerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = RealEstateTests/Info.plist;
+				INFOPLIST_FILE = PopUpAutoMessengerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -921,7 +921,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RealEstateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PopUpAutoMessengerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,

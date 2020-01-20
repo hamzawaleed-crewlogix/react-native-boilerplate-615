@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Text, View, SafeAreaView, TouchableOpacity} from 'react-native';
 import {Item, Input, Label} from 'native-base';
 import styles from '../../Styles/login.styles';
-import {Home} from '../../Constants/Routes';
 
 export default class SignupScreen extends Component {
   render() {
@@ -35,7 +34,7 @@ export default class SignupScreen extends Component {
           </Item>
           <TouchableOpacity
             style={styles.loginBtn}
-            onPress={() => this.props.navigation.navigate(Home)}>
+            onPress={() => this.props.navigation.navigate('Home')}>
             <Text style={styles.loginTxt}>Signup</Text>
           </TouchableOpacity>
         </View>

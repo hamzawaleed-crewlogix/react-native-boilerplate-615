@@ -8,15 +8,10 @@ import {
   Button,
   Icon,
   Title,
-  Item,
-  Text,
-  Form,
-  Label,
 } from 'native-base';
 import {View, ScrollView, StyleSheet, TextInput} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import COLORS from '../../Theme/Colors';
-import {Notifications} from '../../Constants/Routes';
 const SearchContainer = ({children, navigation}) => {
   return (
     <Container>
@@ -32,7 +27,7 @@ const SearchContainer = ({children, navigation}) => {
         <Right>
           <Button
             transparent
-            onPress={() => navigation.navigate(Notifications)}>
+            onPress={() => navigation.navigate('Notifications')}>
             <Icon
               type="Ionicons"
               name="ios-notifications"

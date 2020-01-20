@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Text, View, SafeAreaView, TouchableOpacity} from 'react-native';
 import {Item, Input, Label} from 'native-base';
 import styles from '../../Styles/login.styles';
-import {Home, Signup} from '../../Constants/Routes';
 
 export default class LoginScreen extends Component {
   render() {
@@ -21,12 +20,12 @@ export default class LoginScreen extends Component {
 
           <TouchableOpacity
             style={styles.loginBtn}
-            onPress={() => this.props.navigation.navigate(Home)}>
+            onPress={() => this.props.navigation.navigate('Home')}>
             <Text style={styles.loginTxt}>Login</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.signupBtn}
-            onPress={() => this.props.navigation.navigate(Signup)}>
+            onPress={() => this.props.navigation.navigate('Signup')}>
             <Text style={styles.signupLabel}>Signup</Text>
           </TouchableOpacity>
         </View>

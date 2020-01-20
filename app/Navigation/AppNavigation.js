@@ -2,16 +2,7 @@ import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import {createDrawerNavigator} from 'react-navigation-drawer';
 import styles from '../Styles/NavigationStyles';
-import {
-  Home,
-  Account,
-  Groups,
-  Messages,
-  Drawer,
-  Notifications,
-  Login,
-  Signup,
-} from '../Constants/Routes';
+
 import HomeScreen from '../Screens/Home';
 import MessagesScreen from '../Screens/Messages';
 import GroupsScreen from '../Screens/Groups';
@@ -25,13 +16,13 @@ import LoginScreen from '../Screens/Auth/Login';
 import SignupScreen from '../Screens/Auth/Signup';
 const DrawerNavigator = createDrawerNavigator(
   {
-    [Home]: {screen: HomeScreen},
-    [Account]: {screen: AccountScreen},
-    [Groups]: {screen: GroupsScreen},
-    [Messages]: {screen: MessagesScreen},
+    Home: {screen: HomeScreen},
+    Account: {screen: AccountScreen},
+    Groups: {screen: GroupsScreen},
+    Messages: {screen: MessagesScreen},
   },
   {
-    initialRouteName: Home,
+    initialRouteName: 'Home',
     drawerType: 'slide',
     contentComponent: CustomDrawer,
     resetOnBlur: true,
@@ -45,16 +36,16 @@ const DrawerNavigator = createDrawerNavigator(
 
 const AppStack = createStackNavigator(
   {
-    [Drawer]: {
+    Drawer: {
       screen: DrawerNavigator,
       navigationOptions: {
         header: null,
       },
     },
-    [Notifications]: {
+    Notifications: {
       screen: NotificationScreen,
     },
-    [Login]: {
+    Login: {
       screen: LoginScreen,
       navigationOptions: {
         header: null,
@@ -62,7 +53,7 @@ const AppStack = createStackNavigator(
     },
   },
   {
-    initialRouteName: Drawer,
+    initialRouteName: 'Drawer',
     navigationOptions: {
       headerStyle: styles.header,
     },
@@ -71,13 +62,13 @@ const AppStack = createStackNavigator(
 
 const AuthStack = createStackNavigator(
   {
-    [Login]: {
+    Login: {
       screen: LoginScreen,
       navigationOptions: {
         header: null,
       },
     },
-    [Signup]: {
+    Signup: {
       screen: SignupScreen,
       navigationOptions: {
         header: null,
@@ -85,7 +76,7 @@ const AuthStack = createStackNavigator(
     },
   },
   {
-    initialRouteName: Login,
+    initialRouteName: 'Login',
   },
 );
 

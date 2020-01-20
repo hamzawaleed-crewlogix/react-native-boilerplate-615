@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "npx react-native run-ios --simulator='iPhone X'",
+    "ios": "npx react-native run-ios --simulator='iPhone 11'",
     "commit": "git commit -m 'Bug fixes & improvements'",
     "start": "react-native start",
     "test": "jest",
